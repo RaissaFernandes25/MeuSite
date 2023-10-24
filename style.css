@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+        
+    a {
+        color:rgb(0, 177, 9);
+        text-decoration: none; /* remove o sublinhado do link */
+        font-weight: bold; /*negrito */
+            }
+        a:visited{
+            color:rgb(81, 139, 0);
+            }
+        
+        #aula:visited{ /*endereço já visitado*/
+            color:rgb(94, 183, 82);
+            }
+            a:hover{ /*ao passar o mouse*/
+            color:rgb(9, 93, 0);;
+            text-decoration: underline;
+            }
+
+        a:active{ /* Ao clicar*/
+            color:rgb(24, 64, 0);
+        }
